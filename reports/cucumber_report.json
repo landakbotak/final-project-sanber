@@ -1,0 +1,158 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "kasiraja-login-and-register-user;user-register-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User register with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 243999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3755366400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click register link \"a[href='/register']\"",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3210021799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I input nama toko \"Toko CDE\" and email \"riskarisriska@gmail.com\" and password \"password\"",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628749398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the Login Page",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4051613798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 609200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "kasiraja-login-and-register-user;user-logs-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "User logs in with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on the login page",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3177046099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I login with email \"caca.choco17@gmail.com\" and password \"password\"",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390567897
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the dashboard",
+            "match": {
+              "location": "test\\step-definitions\\steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034577500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "kasiraja-login-and-register-user",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "KasirAja Login and Register user",
+    "tags": [],
+    "uri": "test\\features\\kasirAja.feature"
+  }
+]
